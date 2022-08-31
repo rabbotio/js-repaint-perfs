@@ -3,6 +3,7 @@
   var list = [
     { type: 'todo', id: 'aurelia', label: 'DBMON Aurelia', url: '#' },
     { type: 'naive', id: 'cycle', label: 'DBMON Cycle.js', url: './cycle'},
+    { type: 'odajs', id: 'odajs', url: './odajs', label: 'ODAJS'},
     { type: 'naive', id: 'ember', url: './ember', label: 'DBMON Ember' },
     { type: 'naive', id: 'angular', url: './angular', label: 'DBMON Angular' },
     { type: 'naive', id: 'angular-light', url: './angular-light', label: 'DBMON Angular Light' },
@@ -26,6 +27,8 @@
     { type: 'naive', id: 'sammy', url: './sammy', label: 'DBMON sammy' },
     { type: 'naive', id: 'vue', url: './vue', label: 'DBMON Vue.js' },
     { type: 'naive', id: 'backbone', url: './backbone', label: 'DBMON Backbone' },
+    { type: 'naive', id: 'backbone-marionette', url: './marionette', label: 'DBMON Backbone Marionette' },
+    { type: 'optimized', id: 'backbone-marionette', url: './marionette/opt.html', label: 'DBMON Backbone Marionette' },
     { type: 'naive', id: 'knockout', url: './knockout', label: 'DBMON Knockout' },
     { type: 'naive', id: 'regularjs', url: './regularjs', label: 'DBMON Regularjs' },
     { type: 'naive', id: 'maskjs', url: './mask/index.html', label: 'DBMON MaskJS' },
@@ -52,7 +55,14 @@
     { type: 'naive', id: 're-frame', url: './re-frame/index.html', label: 're-frame (Reagent)' },
     { type: 'naive', id: 'd3', url: './d3/index.html', label: 'DBMON D3' },
     { type: 'naive', id: 'morphdom', url: './morphdom/index.html', label: 'DBMON Morphdom' },
-    { type: 'optimized', id: 'frzr', url: './frzr/index.html', label: 'DBMON FRZR' }
+    { type: 'optimized', id: 'frzr', url: './frzr/index.html', label: 'DBMON FRZR' },
+    { type: 'naive', id: 'vidom', url: './vidom/index.html', label: 'DBMON vidom' },
+    { type: 'optimized', id: 'cycle + xstream', label: 'DBMON Cycle.js + xstream', url: './cycle-xstream' },
+    { type: 'naive', id: 'rionite', url: './rionite', label: 'DBMON Rionite' },
+    { type: 'naive', id: 'monkberry', url: './monkberry/index.html', label: 'DBMON Monkberry' },
+    { type: 'naive', id: 'simulacra', url: './simulacra/index.html', label: 'DBMON Simulacra' },
+    { type: 'optimized', id: 'simulacra', url: './simulacra/opt.html', label: 'DBMON Simulacra' },
+    { type: 'optimized', id: 'dio', url: './dio/index.html', label: 'DBMON DIO.js' }
   ];
 
   function Library() {
